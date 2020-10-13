@@ -16,6 +16,7 @@
 		A834CA852533473800656D4F /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834CA842533473800656D4F /* FavoriteVC.swift */; };
 		A8912ED82534E1AE0048EE7F /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8912ED72534E1AE0048EE7F /* GFButton.swift */; };
 		A8912EDB2534E4B70048EE7F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8912EDA2534E4B70048EE7F /* GFTextField.swift */; };
+		A8912EDE253612500048EE7F /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8912EDD253612500048EE7F /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A834CA842533473800656D4F /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
 		A8912ED72534E1AE0048EE7F /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		A8912EDA2534E4B70048EE7F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		A8912EDD253612500048EE7F /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				A834CA77253333E500656D4F /* Info.plist */,
 				A834CA812533470600656D4F /* SearchVC.swift */,
 				A834CA842533473800656D4F /* FavoriteVC.swift */,
+				A8912EDD253612500048EE7F /* FollowerListVC.swift */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				A834CA6A253333E100656D4F /* AppDelegate.swift in Sources */,
 				A834CA6C253333E100656D4F /* SceneDelegate.swift in Sources */,
 				A834CA852533473800656D4F /* FavoriteVC.swift in Sources */,
+				A8912EDE253612500048EE7F /* FollowerListVC.swift in Sources */,
 				A8912EDB2534E4B70048EE7F /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
