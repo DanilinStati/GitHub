@@ -23,6 +23,7 @@
 		A8912EEA253626290048EE7F /* UIViewController + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8912EE9253626290048EE7F /* UIViewController + Extention.swift */; };
 		A8A709A12537646500F27DF7 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709A02537646500F27DF7 /* Follower.swift */; };
 		A8A709A42537652C00F27DF7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709A32537652C00F27DF7 /* User.swift */; };
+		A8A709AC25376AC000F27DF7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709AB25376AC000F27DF7 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A8912EE9253626290048EE7F /* UIViewController + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extention.swift"; sourceTree = "<group>"; };
 		A8A709A02537646500F27DF7 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		A8A709A32537652C00F27DF7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8A709AB25376AC000F27DF7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,12 @@
 		A834CA68253333E100656D4F /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
+				A834CA77253333E500656D4F /* Info.plist */,
+				A8A709AA25376AA200F27DF7 /* Managers */,
 				A8A7099F2537645100F27DF7 /* Model */,
 				A8912EEC25363F780048EE7F /* Screens */,
 				A8912EED25363FAD0048EE7F /* Custom Views */,
 				A8912EEE25363FDE0048EE7F /* Extensions */,
-				A834CA77253333E500656D4F /* Info.plist */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -135,6 +138,14 @@
 				A8A709A32537652C00F27DF7 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A8A709AA25376AA200F27DF7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A8A709AB25376AC000F27DF7 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 				A8912EE725361EDC0048EE7F /* CFAlertVC.swift in Sources */,
 				A8912EDE253612500048EE7F /* FollowerListVC.swift in Sources */,
 				A8912EDB2534E4B70048EE7F /* GFTextField.swift in Sources */,
+				A8A709AC25376AC000F27DF7 /* NetworkManager.swift in Sources */,
 				A8912EE425361DB50048EE7F /* GFBodyLabel.swift in Sources */,
 				A8912EEA253626290048EE7F /* UIViewController + Extention.swift in Sources */,
 			);
