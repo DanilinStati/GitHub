@@ -27,6 +27,7 @@
 		A8A709DD2538B43B00F27DF7 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709DC2538B43B00F27DF7 /* ErrorMessage.swift */; };
 		A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E12538BCEC00F27DF7 /* FollowerCell.swift */; };
 		A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */; };
+		A8A709E8253A097600F27DF7 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E7253A097600F27DF7 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		A8A709DC2538B43B00F27DF7 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		A8A709E12538BCEC00F27DF7 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		A8A709E7253A097600F27DF7 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A709DC2538B43B00F27DF7 /* ErrorMessage.swift */,
+				A8A709E7253A097600F27DF7 /* UIHelper.swift */,
 			);
 			path = Utilites;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				A8912EDE253612500048EE7F /* FollowerListVC.swift in Sources */,
 				A8912EDB2534E4B70048EE7F /* GFTextField.swift in Sources */,
 				A8A709DD2538B43B00F27DF7 /* ErrorMessage.swift in Sources */,
+				A8A709E8253A097600F27DF7 /* UIHelper.swift in Sources */,
 				A8A709AC25376AC000F27DF7 /* NetworkManager.swift in Sources */,
 				A8912EE425361DB50048EE7F /* GFBodyLabel.swift in Sources */,
 				A8912EEA253626290048EE7F /* UIViewController + Extention.swift in Sources */,
