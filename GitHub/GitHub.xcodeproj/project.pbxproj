@@ -28,6 +28,7 @@
 		A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E12538BCEC00F27DF7 /* FollowerCell.swift */; };
 		A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */; };
 		A8A709E8253A097600F27DF7 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E7253A097600F27DF7 /* UIHelper.swift */; };
+		A8A709F1253B204C00F27DF7 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		A8A709E12538BCEC00F27DF7 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		A8A709E7253A097600F27DF7 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +113,13 @@
 		A8912EED25363FAD0048EE7F /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				A8A709EF253B1FE300F27DF7 /* Labels */,
+				A8A709EE253B1FAB00F27DF7 /* Views */,
+				A8A709ED253B1FA000F27DF7 /* Buttons */,
+				A8A709EC253B1F9300F27DF7 /* TextFields */,
+				A8A709EB253B1F8400F27DF7 /* ImageViews */,
+				A8A709EA253B1F7700F27DF7 /* ViewControllers */,
 				A8A709E02538BCCA00F27DF7 /* Cells */,
-				A8912EE625361EDC0048EE7F /* CFAlertVC.swift */,
-				A8912ED72534E1AE0048EE7F /* GFButton.swift */,
-				A8912EDA2534E4B70048EE7F /* GFTextField.swift */,
-				A8912EE025361C5F0048EE7F /* GFTitleLabel.swift */,
-				A8912EE325361DB50048EE7F /* GFBodyLabel.swift */,
-				A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -174,6 +176,55 @@
 				A8A709E12538BCEC00F27DF7 /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		A8A709EA253B1F7700F27DF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8912EE625361EDC0048EE7F /* CFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8A709EB253B1F8400F27DF7 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		A8A709EC253B1F9300F27DF7 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				A8912EDA2534E4B70048EE7F /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		A8A709ED253B1FA000F27DF7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A8912ED72534E1AE0048EE7F /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A8A709EE253B1FAB00F27DF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8A709EF253B1FE300F27DF7 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				A8912EE025361C5F0048EE7F /* GFTitleLabel.swift */,
+				A8912EE325361DB50048EE7F /* GFBodyLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +301,7 @@
 				A8912ED82534E1AE0048EE7F /* GFButton.swift in Sources */,
 				A834CA6A253333E100656D4F /* AppDelegate.swift in Sources */,
 				A834CA6C253333E100656D4F /* SceneDelegate.swift in Sources */,
+				A8A709F1253B204C00F27DF7 /* GFEmptyStateView.swift in Sources */,
 				A834CA852533473800656D4F /* FavoriteVC.swift in Sources */,
 				A8A709A42537652C00F27DF7 /* User.swift in Sources */,
 				A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */,
