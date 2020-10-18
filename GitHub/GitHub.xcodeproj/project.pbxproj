@@ -29,6 +29,7 @@
 		A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */; };
 		A8A709E8253A097600F27DF7 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E7253A097600F27DF7 /* UIHelper.swift */; };
 		A8A709F1253B204C00F27DF7 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */; };
+		A8A709F6253CB89400F27DF7 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F5253CB89400F27DF7 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		A8A709E42538BD6C00F27DF7 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		A8A709E7253A097600F27DF7 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		A8A709F5253CB89400F27DF7 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A834CA812533470600656D4F /* SearchVC.swift */,
 				A834CA842533473800656D4F /* FavoriteVC.swift */,
 				A8912EDD253612500048EE7F /* FollowerListVC.swift */,
+				A8A709F5253CB89400F27DF7 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */,
 				A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */,
 				A8912EE125361C5F0048EE7F /* GFTitleLabel.swift in Sources */,
+				A8A709F6253CB89400F27DF7 /* UserInfoVC.swift in Sources */,
 				A8A709A12537646500F27DF7 /* Follower.swift in Sources */,
 				A8912EE725361EDC0048EE7F /* CFAlertVC.swift in Sources */,
 				A8912EDE253612500048EE7F /* FollowerListVC.swift in Sources */,
