@@ -33,6 +33,7 @@
 		A8A709FA253DF82C00F27DF7 /* GFUserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F9253DF82C00F27DF7 /* GFUserInfoHeader.swift */; };
 		A8A709FD253DF89200F27DF7 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709FC253DF89200F27DF7 /* GFSecondaryTitleLabel.swift */; };
 		A8A70A00253DFFCE00F27DF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709FF253DFFCE00F27DF7 /* Constants.swift */; };
+		A8A70A03253E1B2600F27DF7 /* CGItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A02253E1B2600F27DF7 /* CGItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		A8A709F9253DF82C00F27DF7 /* GFUserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeader.swift; sourceTree = "<group>"; };
 		A8A709FC253DF89200F27DF7 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		A8A709FF253DFFCE00F27DF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A8A70A02253E1B2600F27DF7 /* CGItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */,
+				A8A70A02253E1B2600F27DF7 /* CGItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			files = (
 				A834CA822533470600656D4F /* SearchVC.swift in Sources */,
 				A834CA6E253333E100656D4F /* ViewController.swift in Sources */,
+				A8A70A03253E1B2600F27DF7 /* CGItemInfoView.swift in Sources */,
 				A8912ED82534E1AE0048EE7F /* GFButton.swift in Sources */,
 				A834CA6A253333E100656D4F /* AppDelegate.swift in Sources */,
 				A834CA6C253333E100656D4F /* SceneDelegate.swift in Sources */,
