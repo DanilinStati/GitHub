@@ -30,6 +30,9 @@
 		A8A709E8253A097600F27DF7 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709E7253A097600F27DF7 /* UIHelper.swift */; };
 		A8A709F1253B204C00F27DF7 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */; };
 		A8A709F6253CB89400F27DF7 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F5253CB89400F27DF7 /* UserInfoVC.swift */; };
+		A8A709FA253DF82C00F27DF7 /* GFUserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709F9253DF82C00F27DF7 /* GFUserInfoHeader.swift */; };
+		A8A709FD253DF89200F27DF7 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709FC253DF89200F27DF7 /* GFSecondaryTitleLabel.swift */; };
+		A8A70A00253DFFCE00F27DF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A709FF253DFFCE00F27DF7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		A8A709E7253A097600F27DF7 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		A8A709F0253B204C00F27DF7 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		A8A709F5253CB89400F27DF7 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		A8A709F9253DF82C00F27DF7 /* GFUserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeader.swift; sourceTree = "<group>"; };
+		A8A709FC253DF89200F27DF7 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		A8A709FF253DFFCE00F27DF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,7 @@
 			children = (
 				A8A709DC2538B43B00F27DF7 /* ErrorMessage.swift */,
 				A8A709E7253A097600F27DF7 /* UIHelper.swift */,
+				A8A709FF253DFFCE00F27DF7 /* Constants.swift */,
 			);
 			path = Utilites;
 			sourceTree = "<group>";
@@ -185,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				A8912EE625361EDC0048EE7F /* CFAlertVC.swift */,
+				A8A709F9253DF82C00F27DF7 /* GFUserInfoHeader.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -226,6 +234,7 @@
 			children = (
 				A8912EE025361C5F0048EE7F /* GFTitleLabel.swift */,
 				A8912EE325361DB50048EE7F /* GFBodyLabel.swift */,
+				A8A709FC253DF89200F27DF7 /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -306,6 +315,7 @@
 				A834CA6C253333E100656D4F /* SceneDelegate.swift in Sources */,
 				A8A709F1253B204C00F27DF7 /* GFEmptyStateView.swift in Sources */,
 				A834CA852533473800656D4F /* FavoriteVC.swift in Sources */,
+				A8A709FD253DF89200F27DF7 /* GFSecondaryTitleLabel.swift in Sources */,
 				A8A709A42537652C00F27DF7 /* User.swift in Sources */,
 				A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */,
 				A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */,
@@ -315,11 +325,13 @@
 				A8912EE725361EDC0048EE7F /* CFAlertVC.swift in Sources */,
 				A8912EDE253612500048EE7F /* FollowerListVC.swift in Sources */,
 				A8912EDB2534E4B70048EE7F /* GFTextField.swift in Sources */,
+				A8A709FA253DF82C00F27DF7 /* GFUserInfoHeader.swift in Sources */,
 				A8A709DD2538B43B00F27DF7 /* ErrorMessage.swift in Sources */,
 				A8A709E8253A097600F27DF7 /* UIHelper.swift in Sources */,
 				A8A709AC25376AC000F27DF7 /* NetworkManager.swift in Sources */,
 				A8912EE425361DB50048EE7F /* GFBodyLabel.swift in Sources */,
 				A8912EEA253626290048EE7F /* UIViewController + Extention.swift in Sources */,
+				A8A70A00253DFFCE00F27DF7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
