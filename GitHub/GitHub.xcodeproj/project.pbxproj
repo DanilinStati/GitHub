@@ -37,6 +37,8 @@
 		A8A70A06253F40FC00F27DF7 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A05253F40FC00F27DF7 /* GFItemInfoVC.swift */; };
 		A8A70A09253F4A6800F27DF7 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A08253F4A6800F27DF7 /* GFRepoItemVC.swift */; };
 		A8A70A0C253F4C9500F27DF7 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A0B253F4C9500F27DF7 /* GFFollowerItemVC.swift */; };
+		A8A70A11253F5D8000F27DF7 /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A10253F5D8000F27DF7 /* Date + Ext.swift */; };
+		A8A70A14253F5DB800F27DF7 /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A13253F5DB800F27DF7 /* String + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		A8A70A05253F40FC00F27DF7 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		A8A70A08253F4A6800F27DF7 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		A8A70A0B253F4C9500F27DF7 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
+		A8A70A10253F5D8000F27DF7 /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
+		A8A70A13253F5DB800F27DF7 /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				A8912EE9253626290048EE7F /* UIViewController + Extention.swift */,
+				A8A70A10253F5D8000F27DF7 /* Date + Ext.swift */,
+				A8A70A13253F5DB800F27DF7 /* String + Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -337,8 +343,10 @@
 				A8A709F1253B204C00F27DF7 /* GFEmptyStateView.swift in Sources */,
 				A834CA852533473800656D4F /* FavoriteVC.swift in Sources */,
 				A8A709FD253DF89200F27DF7 /* GFSecondaryTitleLabel.swift in Sources */,
+				A8A70A11253F5D8000F27DF7 /* Date + Ext.swift in Sources */,
 				A8A709A42537652C00F27DF7 /* User.swift in Sources */,
 				A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */,
+				A8A70A14253F5DB800F27DF7 /* String + Ext.swift in Sources */,
 				A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */,
 				A8A70A09253F4A6800F27DF7 /* GFRepoItemVC.swift in Sources */,
 				A8912EE125361C5F0048EE7F /* GFTitleLabel.swift in Sources */,
