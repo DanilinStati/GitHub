@@ -39,6 +39,7 @@
 		A8A70A0C253F4C9500F27DF7 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A0B253F4C9500F27DF7 /* GFFollowerItemVC.swift */; };
 		A8A70A11253F5D8000F27DF7 /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A10253F5D8000F27DF7 /* Date + Ext.swift */; };
 		A8A70A14253F5DB800F27DF7 /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A13253F5DB800F27DF7 /* String + Ext.swift */; };
+		A8A70A172540969900F27DF7 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A70A162540969900F27DF7 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		A8A70A0B253F4C9500F27DF7 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		A8A70A10253F5D8000F27DF7 /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
 		A8A70A13253F5DB800F27DF7 /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		A8A70A162540969900F27DF7 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A709AB25376AC000F27DF7 /* NetworkManager.swift */,
+				A8A70A162540969900F27DF7 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				A8A70A11253F5D8000F27DF7 /* Date + Ext.swift in Sources */,
 				A8A709A42537652C00F27DF7 /* User.swift in Sources */,
 				A8A709E22538BCEC00F27DF7 /* FollowerCell.swift in Sources */,
+				A8A70A172540969900F27DF7 /* PersistenceManager.swift in Sources */,
 				A8A70A14253F5DB800F27DF7 /* String + Ext.swift in Sources */,
 				A8A709E52538BD6C00F27DF7 /* GFAvatarImageView.swift in Sources */,
 				A8A70A09253F4A6800F27DF7 /* GFRepoItemVC.swift in Sources */,
