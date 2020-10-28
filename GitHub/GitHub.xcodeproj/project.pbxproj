@@ -122,8 +122,8 @@
 				A8A7099F2537645100F27DF7 /* Model */,
 				A8912EEC25363F780048EE7F /* Screens */,
 				A8912EED25363FAD0048EE7F /* Custom Views */,
-				A834CA77253333E500656D4F /* Info.plist */,
 				A8912EEE25363FDE0048EE7F /* Extensions */,
+				A834CA77253333E500656D4F /* Info.plist */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
