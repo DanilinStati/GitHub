@@ -8,8 +8,7 @@
 import UIKit
 
 protocol UserInfoVCDelegate: class {
-    func didTapGitHubProfile(for user: User)
-    func didTapGetFollowers(for user: User)
+    func didRequestFollowers(for username: String)
 }
 
 class UserInfoVC: GFDataLoadingVC {
@@ -21,7 +20,7 @@ class UserInfoVC: GFDataLoadingVC {
     var itemViews: [UIView] = []
     
     var username: String!
-    weak var delegate: FollowerListVCDelegate!
+    weak var delegate: UserInfoVCDelegate!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,26 +112,25 @@ class UserInfoVC: GFDataLoadingVC {
 
 }
 
-extension UserInfoVC: UserInfoVCDelegate {
+extension UserInfoVC: GFRepoItemVCDelegate {
+    
     func didTapGitHubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid", buttonTitle: "Ok")
             return
         }
-        
         presentSafariVC(with: url)
-
     }
+}
+
+extension UserInfoVC: GFFollowerItemVCDelegate {
     
     func didTapGetFollowers(for user: User) {
-        
         guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame 😒.", buttonTitle: "So sad")
             return
         }
-        
         delegate.didRequestFollowers(for: user.login)
         dismissVC()
     }
-    
 }
