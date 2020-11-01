@@ -105,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				A834CA68253333E100656D4F /* GitHub */,
-				A8912EEF253640460048EE7F /* Support */,
 				A834CA67253333E100656D4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,9 +123,10 @@
 				A8A709DB2538B3CD00F27DF7 /* Utilites */,
 				A8A709AA25376AA200F27DF7 /* Managers */,
 				A8A7099F2537645100F27DF7 /* Model */,
-				A8912EEC25363F780048EE7F /* Screens */,
-				A8912EED25363FAD0048EE7F /* Custom Views */,
 				A8912EEE25363FDE0048EE7F /* Extensions */,
+				A8912EED25363FAD0048EE7F /* Custom Views */,
+				A8912EEC25363F780048EE7F /* Screens */,
+				A8912EEF253640460048EE7F /* Support */,
 				A834CA77253333E500656D4F /* Info.plist */,
 			);
 			path = GitHub;
@@ -136,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				A834CA812533470600656D4F /* SearchVC.swift */,
-				A834CA842533473800656D4F /* FavoriteVC.swift */,
 				A8912EDD253612500048EE7F /* FollowerListVC.swift */,
+				A834CA842533473800656D4F /* FavoriteVC.swift */,
 				A8A709F5253CB89400F27DF7 /* UserInfoVC.swift */,
 			);
 			path = Screens;

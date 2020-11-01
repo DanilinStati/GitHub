@@ -18,7 +18,7 @@ class CFAlertVC: UIViewController {
     var message: String?
     var buttonTitle: String?
     
-    fileprivate let padding: CGFloat = 20
+    let padding: CGFloat = 20
     
     init(title: String, message: String, buttonTitle: String) {
         super .init(nibName: nil, bundle: nil)

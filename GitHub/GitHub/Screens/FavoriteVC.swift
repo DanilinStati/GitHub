@@ -51,10 +51,10 @@ class FavoriteVC: GFDataLoadingVC {
                 } else {
                     self.favorites = favorites
                     self.tableView.reloadDataOnMainThread()
-//                    DispatchQueue.main.async {
-//                        self.tableView.reloadData()
-//                        self.view.bringSubviewToFront(self.tableView)
-//                    }
+                    DispatchQueue.main.async {
+                        self.tableView.reloadData()
+                        self.view.bringSubviewToFront(self.tableView)
+                    }
                 }
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
